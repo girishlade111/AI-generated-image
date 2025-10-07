@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 21% 26%; /* Muted Indigo */
+    --foreground: 220 15% 90%;
+
+    --card: 220 30% 20%; /* Deep Indigo */
+    --card-foreground: 220 15% 90%;
+
+    --popover: 220 30% 20%;
+    --popover-foreground: 220 15% 90%;
+
+    --primary: 220 30% 20%;
+    --primary-foreground: 192 100% 50%;
+
+    --secondary: 220 21% 35%;
+    --secondary-foreground: 220 15% 90%;
+
+    --muted: 220 21% 35%;
+    --muted-foreground: 220 15% 70%;
+
+    --accent: 192 100% 50%; /* Electric Teal */
+    --accent-foreground: 220 30% 20%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 21% 35%;
+    --input: 220 21% 35%;
+    --ring: 192 100% 50%; /* Electric Teal */
+
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    background-color: hsl(var(--background));
+    background-image: radial-gradient(hsl(var(--primary)) 1px, transparent 0);
+    background-size: 40px 40px;
+  }
+}
