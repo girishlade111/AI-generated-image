@@ -109,3 +109,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Google AI](https://ai.google/)
 - [shadcn/ui](https://ui.shadcn.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
+---
+
+## 👤 Credits
+
+**Built by Girish Lade** — [ladestack.in](https://ladestack.in)
